@@ -21,7 +21,7 @@ class Recipe
     ingredients = String.new
 
     @ingredients.each do |ingredient|
-      ingredients += ingredient.summary + "\n"
+      ingredients += "- " + ingredient.summary + "\n"
     end
 
     ingredients
